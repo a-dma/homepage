@@ -18,7 +18,7 @@
         '(("website"
            :base-directory "./pages"
            :base-extension "org"
-           :publishing-directory "./public"
+           :publishing-directory "./.public"
            :recursive t
            :publishing-function org-html-publish-to-html
            :headline-levels 4             ; Just the default for this project.
