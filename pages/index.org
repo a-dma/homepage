@@ -1,0 +1,8 @@
+#+TITLE:      Welcome
+#+OPTIONS:    H:3 num:nil toc:t \n:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
+#+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
+#+LANGUAGE:   en
+#+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="http://a-dma.github.io/gruvbox-css/gruvbox-dark-medium.min.css"/>
+#+INFOJS_OPT: view:t toc:t ltoc:t mouse:underline buttons:0 path:http://a-dma.github.io/gruvbox-css/org-info.min.js
+
+Welcome, site under construction (like it's 1992)
