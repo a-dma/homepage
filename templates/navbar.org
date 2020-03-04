@@ -1,0 +1,8 @@
+ #+BEGIN_EXPORT html
+ <div class="menu">
+  {
+    <a href="index.html">Home</a> |
+    <a href="aboutsite.html">About Site</a>
+  }
+ </div>
+ #+END_EXPORT

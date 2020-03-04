@@ -1,4 +1,4 @@
-#+TITLE:      Welcome
+#+TITLE:      About site
 #+OPTIONS:    H:3 num:nil toc:t \n:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
 #+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
 #+LANGUAGE:   en
@@ -6,4 +6,4 @@
 #+INCLUDE:    ../templates/navbar.org
 #+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="css/gruvbox-dark-medium.min.css"/>
 
-Welcome, site under construction (like it's 1992)
+About site
