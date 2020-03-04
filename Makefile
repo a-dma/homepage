@@ -7,6 +7,6 @@ build:
 	@cp -r css .public/
 
 clean:
-	@rm -f ./.public
+	@rm -rf ./.public
 
 .PHONY: all build
