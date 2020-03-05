@@ -23,5 +23,6 @@
            :publishing-function org-html-publish-to-html
            :headline-levels 4             ; Just the default for this project.
            :auto-preamble t)))
+  (org-publish-remove-all-timestamps)
   (org-publish-project "website")
   (message "done"))
