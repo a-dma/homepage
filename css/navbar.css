@@ -1,14 +1,3 @@
-/* .navbar ul { */
-/*   list-style-type: none; */
-/*   margin: auto; */
-/*   padding: 0; */
-/*   overflow: hidden; */
-/*   background-color: #282828; */
-/*   top: 0; */
-/*   width: 35%; */
-/*   position: fixed; */
-/* } */
-
 .navbar {
   top: 0;
   position: -webkit-sticky; /* Safari */
@@ -28,7 +17,6 @@
 
 .navbar li a {
   display: block;
-  /* color: white;*/
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
