@@ -1,0 +1,39 @@
+/* .navbar ul { */
+/*   list-style-type: none; */
+/*   margin: auto; */
+/*   padding: 0; */
+/*   overflow: hidden; */
+/*   background-color: #282828; */
+/*   top: 0; */
+/*   width: 35%; */
+/*   position: fixed; */
+/* } */
+
+.navbar {
+  top: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+.navbar ul {
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #282828;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  /* color: white;*/
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #1d2021;
+}

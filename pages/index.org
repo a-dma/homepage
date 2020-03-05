@@ -1,9 +1,5 @@
-#+TITLE:      Welcome
-#+OPTIONS:    H:3 num:nil toc:t \n:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
-#+STARTUP:    align fold nodlcheck hidestars oddeven lognotestate
-#+LANGUAGE:   en
-#+SETUPFILE:  ../templates/navbar.org
-#+INCLUDE:    ../templates/navbar.org
-#+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="css/gruvbox-dark-medium.min.css"/>
+#+INCLUDE:  ../templates/level-0.org
+#+TITLE:      Welcomea
 
+* Hello
 Welcome, site under construction (like it's 1992)

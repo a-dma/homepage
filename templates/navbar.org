@@ -1,8 +1,10 @@
- #+BEGIN_EXPORT html
- <div class="menu">
-  {
-    <a href="index.html">Home</a> |
-    <a href="aboutsite.html">About Site</a>
-  }
- </div>
- #+END_EXPORT
+#+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="css/navbar.css"/>
+
+#+BEGIN_EXPORT html
+<div class="navbar">
+  <ul>
+    <li><a href="index.html">Home</a>
+    <li><a href="aboutsite.html">About Site</a>
+  </ul>
+</div>
+#+END_EXPORT
