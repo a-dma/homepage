@@ -1,15 +1,13 @@
+(add-to-list 'load-path "/opt/buildhome/org-mode/lisp")
 (require 'package)
 (package-initialize)
 (unless package-archive-contents
   (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
   (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
   (package-refresh-contents))
-(dolist (pkg '(auto-package-update htmlize org))
+(dolist (pkg '(htmlize org))
   (unless (package-installed-p pkg)
     (package-install pkg)))
-
-(require 'auto-package-update)
-(auto-package-update-now)
 
 (require 'org)
 (require 'ox-publish)

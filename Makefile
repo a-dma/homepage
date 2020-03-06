@@ -1,6 +1,10 @@
 MAKEFLAGS += --no-builtin-rules
 
-all: version build
+all: deps version build
+
+deps:
+	@git clone https://code.orgmode.org/bzg/org-mode.git /opt/buildhome/org-mode
+	@$(MAKE) -C /opt/buildhome/org-mode autoloads
 
 build:
 	@emacs --batch -l publish.el -f toggle-debug-on-error -f publish-website
@@ -13,4 +17,4 @@ version:
 clean:
 	@rm -rf ./.public
 
-.PHONY: all build version
+.PHONY: all deps build version
