@@ -1,16 +1,16 @@
 MAKEFLAGS += --no-builtin-rules
 
-all: build
+all: version build
 
 build:
-	@emacs --batch -q --load publish.el -f toggle-debug-on-error -f publish-website
+	@emacs --batch -l publish.el -f toggle-debug-on-error -f publish-website
 	@cp -r css .public/
 
 version:
 	@emacs --version
-	@emacs --batch -q -f org-version
+	@emacs --batch -l publish.el -f org-version
 
 clean:
 	@rm -rf ./.public
 
-.PHONY: all build
+.PHONY: all build version
