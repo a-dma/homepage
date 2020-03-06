@@ -13,6 +13,7 @@
 
 (defun publish-website ()
   "Publish the website."
+  (org-version nil t t)
   (setq org-html-postamble nil)
   (setq org-publish-project-alist
         '(("website"
