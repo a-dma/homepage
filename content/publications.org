@@ -1,0 +1,18 @@
+#+title: Publications
+#+description: List of publications
+#+draft: false
+
+A long time ago in a galaxy far, far away.… I used to write papers.
+Here is what is most likely going to be a definitive collection of
+them.
+
+This page requires JavaScript.
+
+* List of Publications
+
+{{< publications "/bibtex/publications.bib" >}}
+
+** Erdős Number
+
+Surprisingly enough my Erdős number is 3: Paul Erdős - Yechezkel
+Zalcstein - Sushil Jajodia - Alessio Di Mauro.

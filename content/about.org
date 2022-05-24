@@ -1,0 +1,44 @@
+#+title: About me
+#+description: About the author
+#+draft: false
+
+Hi, I'm Alessio.
+
+Since 2014 I have been employed at [[https://www.yubico.com/][Yubico]], where I work on strong
+multi-factor authentication, smart cards (FIDO 2, OpenPGP, PIV),
+YubiKey and YubiHSM.
+
+In 2014 I received a PhD in Computer Science from the Embedded System
+Engineering section of the Department of Applied Mathematics and
+Computer Science at the [[https://www.dtu.dk/][Technical University of Denmark]] (DTU). My
+research focus was on Energy-Harvesting Wireless Sensor Networks, with
+particular attention to Security.
+
+** Contacts
+
+You can find me at
+
+GitHub: https://github.com/a-dma
+
+GitLab: https://gitlab.com/a-dma
+
+LinkedIn: https://linkedin.com/in/alessiodimauro
+
+GPG Key: [[https://keyserver.ubuntu.com/pks/lookup?search=0xb70d62aa6a31ad6b9e4f9f4bdc8888925d25ca7a&fingerprint=on&op=index][B70D 62AA 6A31 AD6B 9E4F 9F4B DC88 8892 5D25 CA7A]]
+
+Keyart:
+#+BEGIN_SRC
++-----[RSA 4096]----+
+|                   |
+|                   |
+|                   |
+|                   |
+|    . .            |
+| . . ^   S ^       |
+|  ^ ^   ^ ^ :      |
+| :.:..^.^  . .     |
+|:.E.:^.: .         |
+|.. :^.^ .          |
+|  :l:. :.          |
++-----[5D25CA7A]----+
+#+END_SRC

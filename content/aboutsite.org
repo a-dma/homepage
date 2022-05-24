@@ -1,0 +1,11 @@
+#+title: About this website
+#+description: Description of the technologies used to make this website
+#+draft: false
+
+This website is made with the following:
+
+- the content is generated using [[https://gohugo.io/][Hugo]] and [[https://orgmode.org/][org-mode]]
+- the theme is [[https://github.com/rhazdon/hugo-theme-hello-friend-ng][Hello Friend NG]]
+- the Publications page uses [[https://github.com/pcooksey/bibtex-js][BibTeX-js]]
+- the code is hosted on [[https://github.com/a-dma/homepage/][GitHub]]
+- the website is hosted on [[https://www.netlify.com/][Netlify]]

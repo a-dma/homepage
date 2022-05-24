@@ -1,6 +1,0 @@
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="css/gruvbox-dark-medium.min.css"/>
-#+OPTIONS: H:3 num:nil toc:nil title:t \n:nil ::t |:t ^:t -:t f:t *:t tex:t d:(HIDE) tags:not-in-toc
-#+OPTIONS: creator:nil date:nil author:nil
-#+STARTUP: align fold nodlcheck hidestars oddeven lognotestate
-#+LANGUAGE: en
-#+INCLUDE: navbar.org

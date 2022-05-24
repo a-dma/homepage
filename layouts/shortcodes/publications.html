@@ -1,0 +1,56 @@
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js"></script>
+<script type="text/javascript">
+  function toggleVisibility(elem) {
+      console.log("get element " + elem);
+       var x = document.getElementById(elem);
+      console.log(x.style.display);
+      console.log(x);
+      if (x.style.display === "none") {
+          x.style.display = "";
+      } else {
+          x.style.display = "none";
+      }
+  }
+</script>
+
+<bibtex src="{{ .Get 0 }}"></bibtex>
+
+<div class="bibtex_template">
+  <div class="if BIBTEXTYPEKEY==INPROCEEDINGS">
+    <span style="font-weight: bold" class="title"></span>.
+    <span class="author"></span>.
+    In <span style="font-style: italic" class="booktitle"></span><span class="if series">, <span class="series"></span></span><span class="if volume">, volume <span class="volume"></span></span><span class="if pages">, pages <span class="pages"></span></span><span class="if address">, <span class="address"></span></span>.
+    <span class="if publisher"><span class="publisher"></span></span><span class="if year"><span class="if publisher">, </span><span class="year"></span></span>.
+    <span class="if url"><a class="url">[PDF]</a></span>
+    <span><a class="bibtexVar" href="#bib+BIBTEXKEY+" onclick="toggleVisibility('bib+BIBTEXKEY+')" extra="BIBTEXKEY" bibtexjs-css-escape>[bib]</a></span>
+    <div class="bibtexVar" id="bib+BIBTEXKEY+" extra="BIBTEXKEY" style="display: none">
+      <pre><span class="bibtexraw noread"></span></pre>
+    </div>
+  </div>
+
+  <div class="if BIBTEXTYPEKEY==ARTICLE">
+    <span style="font-weight: bold" class="title"></span>.
+    <span class="author"></span>. <span style="font-style: italic" class="journal"></span><span class="if volume">, volume <span class="volume"></span></span><span class="if pages">, pages <span class="pages"></span></span>.
+    <span class="if publisher"><span class="publisher"></span></span><span class="if year"><span class="if publisher">, </span><span class="year"></span></span>.
+    <span class="if url"><a class="url">[PDF]</a></span>
+    <span><a class="bibtexVar" href="#bib+BIBTEXKEY+" onclick="toggleVisibility('bib+BIBTEXKEY+')" extra="BIBTEXKEY" bibtexjs-css-escape>[bib]</a></span>
+    <div class="bibtexVar" id="bib+BIBTEXKEY+" extra="BIBTEXKEY" style="display: none">
+      <pre><span class="bibtexraw noread"></span></pre>
+    </div>
+  </div>
+
+  <div class="if BIBTEXTYPEKEY==PHDTHESIS">
+    <span style="font-weight: bold" class="title"></span>.
+    <span class="author"></span>, PhD thesis, <span class="school"></span>, <span class="address"></span>.
+    <span class="month"></span>, <span class="year"></span>.
+    <span class="if url"><a class="url">[PDF]</a></span>
+    <span><a class="bibtexVar" href="#bib+BIBTEXKEY+" onclick="toggleVisibility('bib+BIBTEXKEY+')" extra="BIBTEXKEY" bibtexjs-css-escape>[bib]</a></span>
+    <div class="bibtexVar" id="bib+BIBTEXKEY+" extra="BIBTEXKEY" style="display: none">
+      <pre><span class="bibtexraw noread"></span></pre>
+    </div>
+  </div>
+
+  <div style="margin-top: 20px"></div>
+</div>
+
+<div id="bibtex_display"></div>

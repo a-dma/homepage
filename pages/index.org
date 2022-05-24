@@ -1,5 +1,0 @@
-#+INCLUDE:  ../templates/level-0.org
-#+TITLE:      Welcomea
-
-* Hello
-Welcome, site under construction (like it's 1992)

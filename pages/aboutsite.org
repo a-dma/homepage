@@ -1,4 +1,0 @@
-#+TITLE:      About site
-#+INCLUDE: ../templates/level-0.org
-
-About site
